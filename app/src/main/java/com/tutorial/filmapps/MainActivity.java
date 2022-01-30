@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         filmModelList.add(new FilmModel("ETERNALS","MARVEL STUDIOS",
                 getApplicationContext().getString(R.string.deskripsi1), R.drawable.eternals));
 
-        filmModelList.add(new FilmModel("DEADPOOL","20th CENTURY FOX ",
-                getApplicationContext().getString(R.string.deskripsi2),R.drawable.deadpool1));
+        filmModelList.add(new FilmModel("JUMANJI","20th CENTURY FOX ",
+                getApplicationContext().getString(R.string.deskripsi2),R.drawable.jumanji));
 
         filmModelList.add(new FilmModel("DEADPOOL","20th CENTURY FOX ",
                 getApplicationContext().getString(R.string.deskripsi3),R.drawable.deadpool2));
