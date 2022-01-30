@@ -53,6 +53,10 @@ public class MainActivity extends AppCompatActivity {
         filmModelList.add(new FilmModel("MORTAL KOMBAT","NEW LINE CINEMA ",
                 getApplicationContext().getString(R.string.deskripsi4),R.drawable.mortalkombat));
 
+        filmModelList.add(new FilmModel("SPIDERMAN : NO WAY HOME","MARVEL STUDIOS, COLOUMBIA PICTURES ",
+                getApplicationContext().getString(R.string.deskripsi5),R.drawable.spiderman));
+
+
         filmAdapter.notifyDataSetChanged();
 
     }
