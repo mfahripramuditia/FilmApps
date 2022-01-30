@@ -1,10 +1,12 @@
 package com.tutorial.filmapps;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 
 import com.tutorial.filmapps.adapter.FilmAdapter;
 import com.tutorial.filmapps.model.FilmModel;
@@ -24,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Film Apps");
 
         filmModelList = new ArrayList<>();
         filmAdapter = new FilmAdapter(MainActivity.this, filmModelList  );
@@ -47,6 +55,15 @@ public class MainActivity extends AppCompatActivity {
 
         filmAdapter.notifyDataSetChanged();
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int itemid = item.getItemId();
+        if (itemid == android.R.id.home) {
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 }
