@@ -37,14 +37,10 @@ public class MainActivity extends AppCompatActivity {
                 getApplicationContext().getString(R.string.deskripsi1), R.drawable.eternals));
 
         filmModelList.add(new FilmModel("DEADPOOL","20th CENTURY FOX ",
-                getApplicationContext().getString(R.string.deskripsi2),R.drawable.jumanji));
+                getApplicationContext().getString(R.string.deskripsi2),R.drawable.deadpool1));
 
-        filmModelList.add(new FilmModel("Naruto","Film Favorite kita semua ",
-                "Naruto adalah sebuah serial animas iyang di adapatasi dari komik jepang",R.drawable.eternals));
-        filmModelList.add(new FilmModel("Naruto","Film Favorite kita semua ", "Naruto adalah sebuah serial animas iyang di adapatasi dari komik jepang",R.drawable.eternals));
-        filmModelList.add(new FilmModel("Naruto","Film Favorite kita semua ", "Naruto adalah sebuah serial animas iyang di adapatasi dari komik jepang",R.drawable.eternals));
-        filmModelList.add(new FilmModel("Naruto","Film Favorite kita semua ", "Naruto adalah sebuah serial animas iyang di adapatasi dari komik jepang",R.drawable.eternals));
-
+        filmModelList.add(new FilmModel("DEADPOOL","20th CENTURY FOX ",
+                getApplicationContext().getString(R.string.deskripsi3),R.drawable.deadpool2));
 
         filmAdapter.notifyDataSetChanged();
 
