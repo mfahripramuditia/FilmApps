@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
                 getApplicationContext().getString(R.string.deskripsi2),R.drawable.jumanji));
 
         filmModelList.add(new FilmModel("DEADPOOL","20th CENTURY FOX ",
-                getApplicationContext().getString(R.string.deskripsi3),R.drawable.deadpool2));
+                getApplicationContext().getString(R.string.deskripsi3),R.drawable.deadpool1));
 
         filmModelList.add(new FilmModel("MORTAL KOMBAT","NEW LINE CINEMA ",
-                getApplicationContext().getString(R.string.deskripsi3),R.drawable.deadpool2));
+                getApplicationContext().getString(R.string.deskripsi4),R.drawable.mortalkombat));
 
         filmAdapter.notifyDataSetChanged();
 
