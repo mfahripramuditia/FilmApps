@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Film Apps</string>
+    <string name="judul_film">Judul Film</string>
+    <string name="deskripsi">Deskripsi</string>
+
+    <string name="deskripsi1"> Marvel Studios mempersembahkan Eternals, film ke-25 dalam Marvel Cinematic Universe (MCU) yang akan tayang di bioskop Indonesia pada 10 November 2021. Melalui Eternals, Marvel Studios akan memperkenalkan 10 Super Hero baru yang belum pernah terungkap sebelumnya. \n
+
+\nEternals menghadirkan kisah tentang sekelompok pahlawan dari luar angkasa yang telah melindungi Bumi sejak awal peradaban manusia. Ketika Deviants, makhluk jahat yang telah lama hilang, secara misterius kembali mengancam, para Eternals harus bersatu kembali guna menyelamatkan umat manusia. \n
+
+\nTerinspirasi dari buku komik dengan judul serupa karya Jack Kirby yang terbit pertama kali pada 1976, kisah Eternals akan membawa para penggemar menjelajahi periode waktu yang belum pernah diangkat sebelumnya. Film ini juga memperkenalkan beragam karakter dengan latar belakang yang begitu kaya. \n
+
+Eternals merupakan ras alien abadi dari planet Olympia yang datang ke Bumi ribuan tahun lalu untuk melindungi umat manusia dari alien predator yang dikenal sebagai Deviants. Setelah bertahun-tahun bebas dari ancaman Deviants, para Eternals akhirnya harus mendengar berita tentang kembalinya makhluk tersebut dari Celestials, sosok pencipta yang sebelumnya muncul di film Guardians of the Galaxy. </string>
+
+    <string name="deskripsi2">
+    </string>
+</resources>
