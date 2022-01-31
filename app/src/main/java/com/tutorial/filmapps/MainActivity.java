@@ -59,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
         filmModelList.add(new FilmModel("EXTRACTION"," AGBO, Thematic Entertainment",
                 getApplicationContext().getString(R.string.deskripsi6),R.drawable.extraction));
 
+        filmModelList.add(new FilmModel("PACIFIC RIM : UPRISING","LEGENDARY PICTURES",
+                getApplicationContext().getString(R.string.deskripsi7),R.drawable.pacificrim));
+
 
         filmAdapter.notifyDataSetChanged();
 

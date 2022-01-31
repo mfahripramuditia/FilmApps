@@ -20,7 +20,8 @@
             android:id="@+id/img_photo"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@color/purple_700" />
+            android:layout_marginTop="12dp"
+            android:background="@color/black" />
 
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -33,13 +34,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="JUDUL NYA"
-                android:textSize="20dp" />
+                android:textSize="28dp" />
 
             <TextView
                 android:id="@+id/deskripsi_lengkap"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Deskripsi lengkapnya ada disini jadi kita contohnya aja seperti ini" />
+                android:text="Deskripsi lengkapnya ada disini jadi kita contohnya aja seperti ini"
+                android:textSize="20sp"/>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
