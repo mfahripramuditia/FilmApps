@@ -62,6 +62,9 @@ public class MainActivity extends AppCompatActivity {
         filmModelList.add(new FilmModel("PACIFIC RIM : UPRISING","LEGENDARY PICTURES",
                 getApplicationContext().getString(R.string.deskripsi7),R.drawable.pacificrim));
 
+        filmModelList.add(new FilmModel("REAL STEEL","DREAMWORK PICTURES",
+                getApplicationContext().getString(R.string.deskripsi8),R.drawable.realsteel));
+
 
         filmAdapter.notifyDataSetChanged();
 
