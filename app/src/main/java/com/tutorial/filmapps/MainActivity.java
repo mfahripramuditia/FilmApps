@@ -65,6 +65,12 @@ public class MainActivity extends AppCompatActivity {
         filmModelList.add(new FilmModel("REAL STEEL","DREAMWORK PICTURES",
                 getApplicationContext().getString(R.string.deskripsi8),R.drawable.realsteel));
 
+        filmModelList.add(new FilmModel("SUICIDE SQUAD","DREAMWORK PICTURES",
+                getApplicationContext().getString(R.string.deskripsi9),R.drawable.suicidesquad));
+
+        filmModelList.add(new FilmModel("REAL STEEL","DREAMWORK PICTURES",
+                getApplicationContext().getString(R.string.deskripsi8),R.drawable.realsteel));
+
 
         filmAdapter.notifyDataSetChanged();
 
