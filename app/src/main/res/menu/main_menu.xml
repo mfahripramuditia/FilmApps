@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/search"
+        android:title="Cari"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"/>-->
+    <item
+        android:id="@+id/profil"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profil"
+        app:showAsAction="always" />
+
+</menu>
